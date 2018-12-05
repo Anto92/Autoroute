@@ -136,7 +136,7 @@ def fourth_turn():
 		print('>>>', end="")
 		fourth_guess = input()
 	print()
-	if fourth_guess == 'H' or fourth_guess == 'h' or four_guess == 'Hearts':
+	if fourth_guess == 'H' or fourth_guess == 'h' or fourth_guess == 'Hearts':
 		if fourth_card in deck_hearts:
 			sys.exit('Congrats, you won !!!')
 		else:
